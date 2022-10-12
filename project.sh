@@ -1,4 +1,4 @@
-rm mcrAgene_ref.fasta hsp70_ref.fasta mcrA_aligned.fasta hsp70_aligned.fasta mcrA.hmm hsp70.hmm curr.out table.txt
+rm mcrAgene_ref.fasta hsp70_ref.fasta mcrA_aligned.fasta hsp70_aligned.fasta mcrA.hmm hsp70.hmm table.txt
 
 # add all mcrA references to one file
 for file in $(ls ref_sequences/ | grep -E 'mcr') 
@@ -39,9 +39,13 @@ do
 	curr_hsp_count=$(cat curr_hsp.out | grep -v '#' | wc -l)
 
 	# echo results 
-	echo -e "proteome $i\t\t\t\t\t$curr_mcr_count\t\t\t\t\t$curr_hsp_count" >> table.txt
+	echo -e "proteome $i\t\t\t\t\t $curr_mcr_count\t\t\t\t\t\t  $curr_hsp_count" >> table.txt
+
+	# make recommendations
+	if [ $curr_mcr_count -gt 0 -a $curr_hsp_count -gt 1 ]; then
+			echo "proteome $i" >> recommendations.txt
+	fi
 	i=$((i+1))
-	
 done
 
-# go through table to maj=ke recommendations
+# go through table to make recommendations
