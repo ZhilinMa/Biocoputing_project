@@ -1,0 +1,8 @@
+proteome 3
+proteome 5
+proteome 7
+proteome 23
+proteome 24
+proteome 42
+proteome 45
+proteome 50
