@@ -60,8 +60,10 @@ do
 	echo "$name|$mcra|$hsp70" >> table.txt
 done
 
-# sorting first by most mcrA count and then by most hsp70 count
-cat table.txt | grep -E '\|[1-9]\|[1-9]' | sort -t '|' -k2,2nr -k3,3nr >> finaltable.txt
+# put content of table.txt into finaltable.txt with the headers
+# a pipeline can be created here to rearrange the table
+cat table.txt >> finaltable.txt
+
 
 # remove table.txt
 rm table.txt
