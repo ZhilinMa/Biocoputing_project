@@ -1,0 +1,18 @@
+# Output list of candidate pH-resistant methanogens based on code results
+# Columns read: Proteome Number, mcrA present Y/N, Number of HSP70 matches present
+
+proteome_03 Yes 3
+proteome_05 Yes 2
+proteome_07 Yes 2
+proteome_15 Yes 1
+proteome_16 Yes 1
+proteome_19 Yes 1
+proteome_23 Yes 2
+proteome_24 Yes 2
+proteome_38 Yes 1
+proteome_39 Yes 1
+proteome_42 Yes 3
+proteome_44 Yes 1
+proteome_45 Yes 3
+proteome_48 Yes 1
+proteome_50 Yes 3
