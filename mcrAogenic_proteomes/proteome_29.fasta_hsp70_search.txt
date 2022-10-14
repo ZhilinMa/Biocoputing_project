@@ -1,0 +1,13 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_29.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_29.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_29.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:02 2022
+# [ok]
