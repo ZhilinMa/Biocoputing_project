@@ -1,5 +1,5 @@
 HMMER3/f [3.3.2 | Nov 2020]
-NAME  hsps_aligned
+NAME  Hsp70_aligned
 LENG  618
 ALPH  amino
 RF    no
@@ -7,7 +7,7 @@ MM    no
 CONS  yes
 CS    no
 MAP   yes
-DATE  Wed Oct 12 16:14:45 2022
+DATE  Fri Oct 14 00:32:52 2022
 NSEQ  22
 EFFN  0.668701
 CKSUM 286105623

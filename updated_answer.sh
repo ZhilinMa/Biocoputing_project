@@ -18,25 +18,40 @@ cat ~/Private/Biocomputing2022/biocomputing_project_1/ref_sequences/hsp70gene_*.
 #after that, you need to search the proteomes for the McrA sequence.  If they do not have it, they can be discarded from consideration because the bacteria they are from are not methanogenic bacteria.
 #So first we are going to copy the entire proteome folder so that we can just remove the non-methanogenic proteomes in the copy without permanently deleting them since we'll still have the original
 cp -R ~/Private/Biocomputing2022/biocomputing_project_1/proteomes ~/Private/Biocomputing2022/biocomputing_project_1/methanogenic_proteomes
-for file in ~/Private/Biocomputing2022/biocomputing_project_1/methanogenic_proteomes/*.fasta do
-~/Private/Biocomputing2022/tools/hmmsearch --tblout "$file"_McrA_search.fasta McrA_hmm_built_profile.fasta $file
-$num_hits=(grep -c -v "#" "$file_McrA_search.txt")
-mv "$file"_McrA_search.fasta "Sfile"_McrA_search_with"$num_hits"hits.fasta
-done
-rm ~/Private/Biocomputing2022/biocomputing_project_1/methanogenic_proteomes/*_McrA_search_with0hits.fasta
 
+
+#then for each proteome, we search for McrA sequence matches, count the number of matches using grep, and then rename the file with the number of matches so we can delete the useless ones with 0
+for file in ~/Private/Biocomputing2022/biocomputing_project_1/methanogenic_proteomes/*.fasta
+do
+~/Private/Biocomputing2022/tools/hmmsearch --tblout "$file"_McrA_search.txt McrA_hmm_built_profile.fasta "$file"
+num_hits="$(grep -c -v '#' "$file"_McrA_search.txt)"
+mv "$file"_McrA_search.txt "$file"_McrA_search_with"$num_hits"hits.txt
+done
+
+#then we find all the ones with 0 matches and delete them
+echo ~/Private/Biocomputing2022/biocomputing_project_1/methanogenic_proteomes/*_McrA_search_with0hits.txt > nonmethanogenic_proteomes.txt
+grep -o "proteome_[0-9][0-9].fasta" nonmethanogenic_proteomes.txt > nonmethanogenic_bacteria.txt
+rm nonmethanogenic_proteomes.txt
+
+while read entry
+do
+rm ~/Private/Biocomputing2022/biocomputing_project_1/methanogenic_proteomes/*$entry*
+done <nonmethanogenic_bacteria.txt
+rm nonmethanogenic_bacteria.txt
 
 #once you have discarded the non-methanogenic bacteria, you need to find those that can live in an acidic environment by looking for Hsp70 sequences in their proteomes.
 #first you search for the Hsp70 sequence in all of the remaining proteomes using the Hsp70 profile you constructed earlier, using --tblout to get only the relevant data
 #you can use grep to count the matches, then put each proteome name and the number of matches in a file
 #then you need to sort the file full of proteomes to see which has the most good matches, which will be the one with the most Hsp70-type sequences and will be the most resistant to acid
-for file in ~/Private/Biocomputing2022/biocomputing_project_1/methanogenic_proteomes/*.fasta do
-~/Private/Biocomputing2022/tools/hmmsearch --tblout "$file"_search Hsp70_hmm_built_profile.fasta "$file"
-$var=(cat "$file_search" | grep -c -v "#")
+for file in ~/Private/Biocomputing2022/biocomputing_project_1/methanogenic_proteomes/*.fasta
+do
+~/Private/Biocomputing2022/tools/hmmsearch --tblout "$file"_Hsp70_search.txt Hsp70_hmm_built_profile.fasta "$file"
+var="$(grep -c -v '#' "$file"_Hsp70_search.txt)"
 echo "$file" "$var" >> hsp_matches_per_proteome.txt
 done
 
-cat hsp_matches_per_proteome.txt | sort -t " " -k 2 -n > best_acid-resistant_methanogenic_bacteria.txt
+cat hsp_matches_per_proteome.txt | sort -t " " -k 2 -n -r | grep -o "proteome_[0-9][0-9].fasta [0-9]\+" > best_acid-resistant_methanogenic_bacteria.txt
+rm hsp_matches_per_proteome.txt
 
 cat ~/Private/Biocomputing2022/biocomputing_project_1/methanogenic_proteomes/*search.txt > Collated_Search_Results_for_Both_Genes.txt
 #and then you're done
