@@ -21,7 +21,7 @@
 
 		#(file_path1)
 			#Chris's: ~/Private/Biocomputing_Project/ref_sequences
-			#Joe's:
+			#Joe's: ~/Private/Biocomputing_project/ref_sequences
 
 #Goal 2: Use MUSCLE to generate a HMM of aligned mcrA and hsp70 genes
 	(file_path2)/muscle -in ~/mcr.refs -out mcr_align
@@ -29,7 +29,7 @@
 		
 		#(file_path2)
 		#Chris's: ~/Private/Biocomputing2022/tools
-		#Joe's:
+		#Joe's: ~/Private/Biocomputing2022/tools
 
 #Goal 3: Use hmmbuild to build an HMM profile for each gene type
 	(file_path2)/hmmbuild mcrhmm mcr_align
@@ -50,10 +50,15 @@ done
 
 		#(file_path3)
 		#Chris's: ~/Private/Biocomputing_Project/proteomes
-		#Joe's:
+		#Joe's: ~/Private/Biocomputing_project/proteomes
 
 
 #Goal 5: Sort by presence of mcrA (column 2), presence of hsp70 (column 3)
+
+cat summary_table.csv|sort -t, -k2rn -k3rn|tail -1 > candidates.txt
+cat summary_table.csv|sort -t, -k2rn -k3rn|head -15 >> candidates.txt
+cat candidates.txt
+
 	#mcrA >1, produces methane
 	#number of hsp70 increases, increased pH resistance
 #Provide text file with the names of candidate pH-resistant methanogens (i.e. head, to a certain point)
