@@ -1,0 +1,235 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_048118742.1       -          hsp70_aligned        -                  0 1101.3  23.8         0 1101.1  23.8   1.0   1   0   0   1   1   1   1 MULTISPECIES: molecular chaperone DnaK 
+WP_048116754.1       -          hsp70_aligned        -           6.5e-110  365.8   8.9  2.2e-100  334.3   3.6   2.0   2   0   0   2   2   2   2 MULTISPECIES: hypothetical protein 
+WP_048116752.1       -          hsp70_aligned        -           6.8e-107  355.8  13.6  8.6e-100  332.4   6.5   2.0   2   0   0   2   2   2   2 MULTISPECIES: Hsp70 family protein 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_03.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_03.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_03.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:01 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_011447201.1       -          hsp70_aligned        -           9.2e-302  999.4  26.8    1e-301  999.3  26.8   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
+WP_052288776.1       -          hsp70_aligned        -           2.8e-147  489.1   3.1    4e-147  488.7   2.8   1.2   1   1   0   1   1   1   1 hypothetical protein 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_05.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_05.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_05.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:01 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_012106756.1       -          hsp70_aligned        -           7.1e-294  973.0  23.7  8.1e-294  972.8  23.7   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
+WP_012107167.1       -          hsp70_aligned        -           2.5e-292  967.9  18.7  2.9e-292  967.7  18.7   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_07.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_07.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_07.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:01 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_011971911.1       -          hsp70_aligned        -           4.2e-103  342.3   8.1  1.1e-102  340.9   8.1   1.6   1   1   0   1   1   1   1 2-alkenal reductase 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_15.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_15.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_15.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:01 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_012037073.1       -          hsp70_aligned        -                  0 1049.5  25.7         0 1049.4  25.7   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_16.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_16.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_16.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:01 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_015285645.1       -          hsp70_aligned        -           1.3e-293  972.3  23.3  1.5e-293  972.1  23.3   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_19.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_19.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_19.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:01 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_011954292.1       -          hsp70_aligned        -           6.5e-302  999.0  30.7  7.4e-302  998.8  30.7   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
+WP_004032955.1       -          hsp70_aligned        -            4.4e-16   54.9  10.4   1.4e-15   53.2  10.4   1.7   1   1   0   1   1   1   1 MULTISPECIES: rod shape-determining protein 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_23.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_23.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_23.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:01 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_011034423.1       -          hsp70_aligned        -                  0 1108.9  23.0         0 1108.7  23.0   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
+WP_080942098.1       -          hsp70_aligned        -           3.3e-212  703.7   7.2  3.8e-212  703.5   7.2   1.0   1   0   0   1   1   1   1 MULTISPECIES: molecular chaperone DnaK 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_24.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_24.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_24.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:02 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_29.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_29.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_29.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:02 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_012037073.1       -          hsp70_aligned        -                  0 1049.5  25.7         0 1049.4  25.7   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_38.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_38.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_38.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:02 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_012037073.1       -          hsp70_aligned        -                  0 1049.5  25.7         0 1049.4  25.7   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_39.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_39.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_39.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:02 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_048118742.1       -          hsp70_aligned        -                  0 1101.3  23.8         0 1101.1  23.8   1.0   1   0   0   1   1   1   1 MULTISPECIES: molecular chaperone DnaK 
+WP_048116754.1       -          hsp70_aligned        -           6.5e-110  365.8   8.9  2.2e-100  334.3   3.6   2.0   2   0   0   2   2   2   2 MULTISPECIES: hypothetical protein 
+WP_048116752.1       -          hsp70_aligned        -           6.8e-107  355.8  13.6  8.6e-100  332.4   6.5   2.0   2   0   0   2   2   2   2 MULTISPECIES: Hsp70 family protein 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_42.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_42.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_42.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:02 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_012037073.1       -          hsp70_aligned        -                  0 1049.5  25.7         0 1049.4  25.7   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_44.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_44.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_44.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:02 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_048118742.1       -          hsp70_aligned        -                  0 1101.3  23.8         0 1101.1  23.8   1.0   1   0   0   1   1   1   1 MULTISPECIES: molecular chaperone DnaK 
+WP_048116754.1       -          hsp70_aligned        -           6.5e-110  365.8   8.9  2.2e-100  334.3   3.6   2.0   2   0   0   2   2   2   2 MULTISPECIES: hypothetical protein 
+WP_048116752.1       -          hsp70_aligned        -           6.8e-107  355.8  13.6  8.6e-100  332.4   6.5   2.0   2   0   0   2   2   2   2 MULTISPECIES: Hsp70 family protein 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_45.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_45.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_45.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:02 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_012037073.1       -          hsp70_aligned        -                  0 1049.5  25.7         0 1049.4  25.7   1.0   1   0   0   1   1   1   1 molecular chaperone DnaK 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_48.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_48.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_48.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:02 2022
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_048118742.1       -          hsp70_aligned        -                  0 1101.3  23.8         0 1101.1  23.8   1.0   1   0   0   1   1   1   1 MULTISPECIES: molecular chaperone DnaK 
+WP_048116754.1       -          hsp70_aligned        -           6.5e-110  365.8   8.9  2.2e-100  334.3   3.6   2.0   2   0   0   2   2   2   2 MULTISPECIES: hypothetical protein 
+WP_048116752.1       -          hsp70_aligned        -           6.8e-107  355.8  13.6  8.6e-100  332.4   6.5   2.0   2   0   0   2   2   2   2 MULTISPECIES: Hsp70 family protein 
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      hsp70_hmm_built_profile.fasta
+# Target file:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_50.fasta
+# Option settings: /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/tools/hmmsearch --tblout /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_50.fasta_hsp70_search.txt hsp70_hmm_built_profile.fasta /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/mcrAogenic_proteomes/proteome_50.fasta 
+# Current dir:     /afs/crc.nd.edu/user/a/awaelde/Private/Biocomputing2022/biocomputing_project_1/script_byproducts_for_mcrA_and_hsp70_search
+# Date:            Fri Oct 14 11:25:02 2022
+# [ok]
