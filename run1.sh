@@ -2,9 +2,15 @@
 # Andrew Lupinski
 # Matthew Hawkins
 
-# Shell Script for Biocomputing Project #1
-
+# Shell Script for Biocomputing Project #1 FINAL
 ### All code is presumed to be in the specified directories.
+
+# This shell script will search each genome (proteome) for the genes of interest (mcrA and HSP70)
+# Then, it will produce a summary table collating the results of all searches
+# The final output will be a .csv file that will contain a list of the candidate pH-resistant methanogens based on the results.
+
+# Usage: bash run1.sh 
+# Make sure script is in the correct working directories (in our case, the ref_sequences directory)
 
 # First, you need to combine the mcrA reference sequences into one single reference file
 
