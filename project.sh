@@ -27,11 +27,11 @@ rm arefs_mcrA.fasta
 # Next, we need to use hmmsearch to search through each proteome for mcrA and hsp70
 for file in proteomes/*.fasta
 do
-	~/Private/Biocomputing2022/tools/hmmsearch --tblout hsp70${file} hmmrefs_hsp70.fasta $file;
+	~/Private/Biocomputing2022/tools/hmmsearch --tblout hsp70${file} hmmrefs_hsp70.fasta $file;      #miss step for directory making, need this step to running the following steps
 done
 for file in proteomes/*.fasta
 do
-	~/Private/Biocomputing2022/tools/hmmsearch --tblout mcra${file} hmmrefs_mcrA.fasta $file;
+	~/Private/Biocomputing2022/tools/hmmsearch --tblout mcra${file} hmmrefs_mcrA.fasta $file;        #miss step for directory making, need this step to running the following steps
 done
 
 #delete hmmrefs files
